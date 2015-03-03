@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div data-role="page" id="page1">
+  <div data-role="main">
+    <img src="img/IMG_2931.JPG">
+    <p>羊羊羊穿棉衣</p>
+    <a href="#page2" data-transition="slideup">Next Page >></a>
+  </div>
+
+  <div data-role="footer">
+    <!-- <h1>那个男人 --the one</h1> -->
+    <audio controls autoplay>
+      <source src="audio/nagenanren.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+  </div>
+  <!-- <audio src="audio/nagenanren.mp3" autoplay="autoplay">
+    <embed src="audio/nagenanren.mp3" autostart="true" loop="true" hidden="true" /> 
+  </audio> -->
+ 
+  <!-- <audio autoplay loop>
+      <source src="audio/nagenanren.mp3">
+  </audio> -->
+ 
+ <!-- <audio preload="preload" controls id="car_audio" src="audio/nagenanren.mp3" loop></audio>
+  <script>
+   setTimeout(function(){
+   $(window).scrollTop(1);
+   },0);
+    document.getElementById('car_audio').play();
+   document.addEventListener("WeixinJSBridgeReady", function () {
+          WeixinJSBridge.invoke('getNetworkType', {}, function (e) {
+    document.getElementById('car_audio').play();
+          });
+      }, false);
+  </script> -->
+  <!-- <embed width="400" height="100" border="0" showdisplay="0" showcontrols="1" autostart="1" autorewind="0" playcount="0" src="audio/nagenanren.mp3">
+  </embed> -->
+
+</div> 
+
+<div data-role="page" id="page2">
+  <div data-role="main">
+    <img src="img/IMG_3537.JPG">
+    <p>羊羊虎虎摘草莓</p>
+    <a href="#page1" data-transition="slidedown"><< Last Page</a>
+    <a href="#page3" data-transition="slideup">Next Page >></a>
+  </div>
+
+  <div data-role="footer">
+    <h1> </h1>
+    <!-- <audio controls autoplay>
+      <source src="audio/nagenanren.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio> -->
+  </div>
+</div> 
+
+<div data-role="page" id="page3">
+  <div data-role="main">
+    <img src="img/IMG_3541.JPG">
+    <p>羊羊捧草莓</p>
+    <a href="#page2" data-transition="slidedown"><< Last Page</a>
+    <a href="#page4" data-transition="slideup">Next Page >></a>
+  </div>
+
+  <div data-role="footer">
+    <h1> </h1>
+  </div>
+</div> 
+
+
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</body>
+</html>
